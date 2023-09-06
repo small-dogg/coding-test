@@ -1,9 +1,10 @@
+package codingtest.book.정렬;
 
 import java.util.*;
 
-public class 심심 {
+public class 메뉴리뉴얼2 {
     public static void main(String[] args) {
-        new 심심().solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"}, new int[]{2, 3, 4});
+        new 메뉴리뉴얼2().solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"}, new int[]{2, 3, 4});
     }
 
     private static class RenewMenu {
@@ -29,9 +30,9 @@ public class 심심 {
 
             for (String order : orders) {
 
-                if (order.containAll(s)) {
-                    nowCount++;
-                }
+//                if (order.containAll(s)) {
+//                    nowCount++;
+//                }
             }
 
             if (nowCount > maxCount) {
