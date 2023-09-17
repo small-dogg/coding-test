@@ -21,6 +21,7 @@ public class 올바른괄호 {
     }
 }
 
+// CorrectBracket.class
 //class Solution {
 //    boolean solution(String s) {
 //        boolean answer = true;
