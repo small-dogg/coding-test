@@ -1,6 +1,6 @@
 package codingtest.tip;
 
-import codingtest.FiboNum;
+import codingtest.programmers.FiboNum;
 
 public class 피보나치수열2 {
     /**
@@ -30,6 +30,6 @@ public class 피보나치수열2 {
 
 
         public static void main(String[] args) {
-            new codingtest.FiboNum().solution(100000);
+            new FiboNum().solution(100000);
         }
     }
