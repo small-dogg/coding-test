@@ -22,9 +22,9 @@ public class 예제 {
             /* 현재 상태 state 처리*/
 
             // (6) 전이 상태 생성
-            for (int next : getNextState(state)) {
-
-            }
+//            for (int next : getNextState(state)) {
+//
+//            }
         }
     }
 }
