@@ -27,7 +27,7 @@ public class 게임맵최단거리 {
 
         //3. 초기상태
         Queue<State> queue = new LinkedList<>();
-        queue.add(new State(0, 0, 0));
+        queue.add(new State(0, 0, 1));
 
         //4. 탐색 진행
         while (!queue.isEmpty()) {
