@@ -14,9 +14,9 @@ public class K진수에서소수개수구하기 {
     public int solution(int n, int k) {
         int result = 0;
 
-        String[] string = Integer.toString(n, k).split("0+");
+        String[] string = Long.toString(n, k).split("0+");
         for (String s : string) {
-            if(isPrime(Integer.parseInt(s))){
+            if(isPrime(Long.parseLong(s))){
                 result++;
             }
         }
